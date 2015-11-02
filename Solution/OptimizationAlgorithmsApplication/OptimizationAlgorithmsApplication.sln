@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimizationAlgorithmsApplication", "OptimizationAlgorithmsApplication.csproj", "{3CF5285B-79EB-4E3E-B126-F42F275CF166}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC22750C-1DD2-4654-9400-D29F0C729CCF} = {BC22750C-1DD2-4654-9400-D29F0C729CCF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimizationAlgorithms", "..\OptimizationAlgorithms\OptimizationAlgorithms.csproj", "{BC22750C-1DD2-4654-9400-D29F0C729CCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CF5285B-79EB-4E3E-B126-F42F275CF166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF5285B-79EB-4E3E-B126-F42F275CF166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF5285B-79EB-4E3E-B126-F42F275CF166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF5285B-79EB-4E3E-B126-F42F275CF166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC22750C-1DD2-4654-9400-D29F0C729CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC22750C-1DD2-4654-9400-D29F0C729CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC22750C-1DD2-4654-9400-D29F0C729CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC22750C-1DD2-4654-9400-D29F0C729CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
